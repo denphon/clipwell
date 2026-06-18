@@ -1,14 +1,14 @@
-# ClipHistory
+# Clipwell
 
 A lightweight Windows clipboard history manager — runs in the system tray, pops up instantly via a global hotkey (default `Win + V`), and pastes back to the previous window with a single click.
 
-This repository hosts **release downloads only**. Grab the latest build from the [Releases](https://github.com/denphon/ClipHistory/releases) page.
+This repository hosts **release downloads only**. Grab the latest build from the [Releases](https://github.com/denphon/clipwell/releases) page.
 
 ## Download & install
 
-1. Open the [Releases](https://github.com/denphon/ClipHistory/releases) page.
-2. Download the latest `ClipHistory-<version>.zip`.
-3. Extract it anywhere and run `ClipHistory.exe`.
+1. Open the [Releases](https://github.com/denphon/clipwell/releases) page.
+2. Download the latest `Clipwell-<version>.zip`.
+3. Extract it anywhere and run `Clipwell.exe`.
 
 Requires the **WebView2 Runtime**, which ships with Microsoft Edge on Windows 10/11 (already present on most systems).
 

@@ -4,6 +4,18 @@ All notable changes to this project are documented in this file.
 
 This changelog is organized by release tag, based on git commit history.
 
+> 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
+
+## 2.0.0.1 - 2026-06-18
+
+### Changed
+- Rebranded the product from "ClipHistory" to **Clipwell**. The executable, window titles, tray tooltip, About dialog, and all bundled translations now use the new name. Existing settings, clipboard history, pinned items, and cached images are migrated automatically on first launch, and the previous auto-start entry is carried over so the app keeps launching at startup without any manual steps.
+
+## 1.1.0.8 - 2026-06-18
+
+### Added
+- Added a built-in software updater that checks the public GitHub repository for new releases, downloads the latest package, replaces the running executable in place, and prompts to restart. A new "Update" section in Settings shows the current version, lets you choose the check frequency (Manually / On startup / Daily / Weekly), and offers a one-click "Check now" action.
+- Added a "Check for Updates" entry to the tray menu that opens the Update section and starts a check.
 
 ## 1.1.0.7 - 2026-06-18
 
@@ -119,7 +131,7 @@ This changelog is organized by release tag, based on git commit history.
 ## 1.0.0.1 - 2026-05-09
 
 ### Added
-- Initial release of ClipHistory, a Windows clipboard history manager.
+- Initial release of Clipwell, a Windows clipboard history manager.
 - Clipboard monitor with a history window shown via the Win+Shift+V hotkey.
 - Per-monitor DPI awareness, rounded corners, and a flicker-free background.
 - History deduplication with pinned-entry preservation, and drag-to-move for the window.
