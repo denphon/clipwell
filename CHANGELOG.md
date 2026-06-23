@@ -6,6 +6,35 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.0.4 - 2026-06-23
+
+### Added
+- **Rich text (HTML/RTF) support**: clipboard entries now capture and restore HTML/RTF formatting, show a formatted preview in the list, and offer **Paste as plain text** in the right-click menu.
+- Added a **Default rich text paste format** setting (rich/plain) and a **rich text/HTML preview** setting (rich/plain) in the settings center.
+- Packaging now also produces an **NSIS installer** (`Setup.exe`) alongside the portable zip.
+
+### Changed
+- Images now use the lossless **PNG** clipboard format: captured and restored without re-encoding (preserving transparency), and **Save as file** exports images as `.png` instead of `.jpg`.
+- Clicking or copying an entry no longer refreshes its timestamp.
+
+### Fixed
+- Fixed the right-click context menu lingering after the window was hidden and reopened.
+
+## 2.0.0.3 - 2026-06-22
+
+### Added
+- Added a **Window position** setting (General) to choose where the history window appears when opened: follow cursor, screen center, or bottom-right of screen.
+- Added a **network proxy** setting (Update) so update checks and downloads can go through a configured proxy.
+
+### Changed
+- The history window now returns focus to the search box after clicking any non-input element.
+- Removed the exe "unlock" mode and its related logic.
+
+## 2.0.0.2 - 2026-06-18
+
+### Fixed
+- `lastUpdateCheck` is no longer stored in `config.json`. This runtime value now lives in a separate `update_state.json`, and any legacy value left in `config.json` is migrated automatically on first launch.
+
 ## 2.0.0.1 - 2026-06-18
 
 ### Changed
