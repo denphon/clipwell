@@ -9,7 +9,7 @@ This repository hosts **release downloads only**. Grab the latest build from the
 1. Open the [Releases](https://github.com/denphon/clipwell/releases) page.
 2. Choose how to install:
    - **Installer**: download `Clipwell-<version>-Setup.exe` and run it (adds Start menu / desktop shortcuts and an uninstall entry).
-   - **Portable**: download `Clipwell-<version>.zip`, extract it anywhere, and run `Clipwell.exe` (data stays next to the exe).
+   - **Portable**: download `Clipwell-<version>-portable.zip`, extract it anywhere, and run `Clipwell.exe` (data stays next to the exe).
 
 Requires the **WebView2 Runtime**, which ships with Microsoft Edge on Windows 10/11 (already present on most systems).
 
@@ -18,6 +18,7 @@ Requires the **WebView2 Runtime**, which ships with Microsoft Edge on Windows 10
 - Tracks clipboard history for **text, images, and files/folders**.
 - **Rich text (HTML/RTF)** is captured and restored, with a formatted preview in the list and a "paste as plain text" option.
 - Images use the lossless **PNG** format (transparency preserved) and export as `.png`.
+- **Smart recognition** for plain text: color values show a swatch preview, links are clickable to open in the browser, and code is shown in a monospace block.
 - **Click an entry to paste** it into the previously active window.
 - System tray icon with a global hotkey to open the history window (default `Win + V`, customizable).
 - Edge-style dark/light themes, grouping tabs (All / Text / Image / Files / Pinned), search, pin, notes, and save-as-file.

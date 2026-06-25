@@ -6,6 +6,15 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.0.5 - 2026-06-25
+
+### Added
+- **Smart content recognition** for plain-text entries in the history list: pure color values (`#rgb`/`#rrggbb`/`#rrggbbaa`, `rgb()`/`rgba()`, `hsl()`/`hsla()`) now show a color swatch preview, `http`/`https` links are highlighted and clickable to open in the default browser, and code-like text is rendered in a monospace block.
+- Added a dedicated **Clipboard** settings section. The **Default rich text paste format** and **rich text/HTML preview** options moved here from General.
+
+### Changed
+- The portable package is now named `Clipwell-<version>-portable.zip` to distinguish it from the installer.
+
 ## 2.0.0.4 - 2026-06-23
 
 ### Added
