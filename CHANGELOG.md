@@ -6,6 +6,13 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.0.6 - 2026-06-25
+
+### Added
+- **Preview window**: click "Preview" below a history entry or in its right-click menu to view the full content in a separate, resizable window. The window can be maximized / restored / minimized / closed, opens centered on screen, supports text selection, offers a rich text / plain text toggle, and lets you click links to open them in the default browser.
+- **Markdown rendering**: plain text detected as Markdown is rendered as rich text in both the list and the preview window; when pasting as rich text, the rendered HTML is pasted instead of the raw Markdown source.
+- Entries now show a small metric next to the timestamp: character count for text, pixel dimensions for images, and file/folder count for files.
+
 ## 2.0.0.5 - 2026-06-25
 
 ### Added

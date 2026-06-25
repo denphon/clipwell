@@ -19,6 +19,8 @@ Requires the **WebView2 Runtime**, which ships with Microsoft Edge on Windows 10
 - **Rich text (HTML/RTF)** is captured and restored, with a formatted preview in the list and a "paste as plain text" option.
 - Images use the lossless **PNG** format (transparency preserved) and export as `.png`.
 - **Smart recognition** for plain text: color values show a swatch preview, links are clickable to open in the browser, and code is shown in a monospace block.
+- **Markdown rendering**: text recognized as Markdown is rendered as rich text in both the list and the preview, and a rich paste pastes the rendered result.
+- **Preview window**: open an entry's full content in a separate resizable window (centered, text selection, rich/plain toggle, clickable links).
 - **Click an entry to paste** it into the previously active window.
 - System tray icon with a global hotkey to open the history window (default `Win + V`, customizable).
 - Edge-style dark/light themes, grouping tabs (All / Text / Image / Files / Pinned), search, pin, notes, and save-as-file.
