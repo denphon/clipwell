@@ -6,6 +6,15 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.0.7 - 2026-06-26
+
+### Added
+- **Structured preview for JSON / YAML**: text detected as JSON or a YAML mapping is shown as a collapsible, syntax-highlighted tree, with expand-all / collapse-all controls. The preview can be switched between Structured / Rich text / Plain text.
+- **Encode/Decode tools in the preview**: Base64, Base64Url, URL, Hex and Quoted-Printable encode & decode, MD5 hash, SAML (deflate) encode/decode, Pretty JSON, UTF16 and pwdLastSet/FILETIME decode, with one-click copy of the result.
+
+### Changed
+- The software-update check now shows the detailed failure reason (e.g. the HTTP status and message) instead of a generic "network" error.
+
 ## 2.0.0.6 - 2026-06-25
 
 ### Added

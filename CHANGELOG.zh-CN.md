@@ -6,6 +6,15 @@
 
 > English version: [CHANGELOG.md](CHANGELOG.md)
 
+## 2.0.0.7 - 2026-06-26
+
+### Added
+- **JSON / YAML 结构化预览**：被识别为 JSON 或 YAML 映射的文本会以可折叠、语法高亮的树状视图显示，并提供展开所有 / 收缩所有按钮。预览可在结构化 / 富文本 / 纯文本之间切换。
+- **预览编解码工具**：Base64、Base64Url、URL、Hex、Quoted-Printable 的编码与解码，MD5 哈希，SAML（deflate）编解码，Pretty JSON，UTF16 与 pwdLastSet/FILETIME 解码，并可一键复制结果。
+
+### Changed
+- 检查更新失败时现在显示详细原因（如 HTTP 状态码与消息），而非笼统的 network 错误。
+
 ## 2.0.0.6 - 2026-06-25
 
 ### 新增
