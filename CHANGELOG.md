@@ -6,6 +6,17 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.0.8 - 2026-06-26
+
+### Added
+- **List preview length setting**: a new Clipboard option controls the maximum text length shown per entry in the history list (8 KB – 1 MB); the preview window always shows the full content.
+- **Hide empty fields in the structured preview**: a toggle in the JSON/YAML tree view hides fields whose value is null or an empty string.
+- The structured preview now keeps the `[OUTGOING]` / `[INCOMING]` (and similar) line labels found in captured logs, wrapping each frame under its label so the direction stays visible.
+
+### Fixed
+- Clipboard content was sometimes not captured. Fixed a suppression flag that leaked when the clipboard could not be opened, and added retries for remote-desktop / Cloud PC clipboard sync that uses delayed rendering.
+
+
 ## 2.0.0.7 - 2026-06-26
 
 ### Added

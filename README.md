@@ -21,7 +21,7 @@ Requires the **WebView2 Runtime**, which ships with Microsoft Edge on Windows 10
 - **Smart recognition** for plain text: color values show a swatch preview, links are clickable to open in the browser, and code is shown in a monospace block.
 - **Markdown rendering**: text recognized as Markdown is rendered as rich text in both the list and the preview, and a rich paste pastes the rendered result.
 - **Preview window**: open an entry's full content in a separate resizable window (centered, text selection, rich/plain toggle, clickable links).
-- **Structured preview**: JSON / YAML is shown as a collapsible, syntax-highlighted tree (expand/collapse all).
+- **Structured preview**: JSON / YAML is shown as a collapsible, syntax-highlighted tree (expand/collapse all, hide empty fields). Captured-log line labels like `[OUTGOING]` / `[INCOMING]` are preserved so the direction stays visible.
 - **Encode/Decode tools** in the preview: Base64 / Base64Url / URL / Hex / Quoted-Printable, MD5, SAML, Pretty JSON, UTF16 and FILETIME decode, with one-click copy.
 - **Click an entry to paste** it into the previously active window.
 - System tray icon with a global hotkey to open the history window (default `Win + V`, customizable).
