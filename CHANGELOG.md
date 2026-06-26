@@ -6,6 +6,24 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.0.9 - 2026-06-26
+
+### Added
+- **Image preview at actual size**: images now open at their real physical size based on the image DPI and the current screen DPI, with a zoom-ratio badge.
+- **Zoom and pan in the image preview**: scroll to zoom around the cursor, drag to move, and middle-click to reset to the original size.
+- **Paste as Markdown / Paste as HTML** in the entry right-click menu: convert rich HTML to Markdown source, or render a Markdown entry to HTML, when pasting.
+- The manual proxy now accepts a full URL with an optional scheme and credentials, e.g. `http://user:pass@host:7810` (proxy Basic authentication is handled automatically).
+
+### Changed
+- Switching the proxy to system/none no longer discards the manual proxy address.
+- The character count shown next to an entry now uses the full length before any list-preview truncation.
+- The structured preview hide-empty-fields toggle also hides empty objects (and objects whose members all become hidden).
+- The entry right-click menu is kept within the window and scrolls when it would not fit.
+
+### Fixed
+- Reopening the same image entry no longer falls back to a window-fit size.
+
+
 ## 2.0.0.8 - 2026-06-26
 
 ### Added
