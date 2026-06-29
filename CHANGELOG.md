@@ -6,6 +6,17 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.0.10 - 2026-06-29
+
+### Added
+- The manual proxy server is now stored encrypted (AES-256-GCM) instead of in plaintext, so credentials are not exposed in the config file; the password is masked in the settings input until focused.
+
+### Changed
+- The structured "hide empty fields" toggle now also drops empty arrays.
+- The history window keeps a larger gap from the screen edges and, in cursor mode, pops up to the bottom-right of the cursor.
+- Update errors are shown in red.
+
+
 ## 2.0.0.9 - 2026-06-26
 
 ### Added
