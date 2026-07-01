@@ -6,6 +6,17 @@
 
 > English version: [CHANGELOG.md](CHANGELOG.md)
 
+## 2.0.1.0 - 2026-07-01
+
+### 新增
+- 条目右键菜单新增 **粘贴/复制为 Markdown 或 HTML**：将富文本 HTML 转为 Markdown 源码、或将 Markdown 条目渲染为 HTML，可粘贴到当前窗口或复制到剪贴板（HTML 以富文本形式复制）。
+- 安装程序完成页新增两个选项（默认开启）：安装后立即启动 Clipwell、Clipwell 跟随系统启动。
+
+### 变更
+- **Copy** 按钮现在与 **Paste** 使用相同格式（遵循纯文本/富文本设置并渲染 Markdown）。
+- Markdown 识别现在能识别单个链接，包括链接文字含嵌套方括号的情况。
+
+
 ## 2.0.0.10 - 2026-06-29
 
 ### 新增

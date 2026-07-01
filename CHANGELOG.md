@@ -6,6 +6,17 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.1.0 - 2026-07-01
+
+### Added
+- **Copy/Paste as Markdown or HTML** in the entry right-click menu: convert rich HTML to Markdown source or a Markdown entry to HTML, either pasting it into the active window or copying it to the clipboard (HTML is copied as rich text).
+- The installer now offers two options on the finish page (both on by default): launch Clipwell after install, and start Clipwell with Windows.
+
+### Changed
+- The **Copy** button now uses the same format as **Paste** (honours the plain/rich setting and renders Markdown).
+- Markdown detection now recognises a single link, including links whose text contains nested brackets.
+
+
 ## 2.0.0.10 - 2026-06-29
 
 ### Added
