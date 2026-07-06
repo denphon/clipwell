@@ -6,6 +6,21 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.1.1 - 2026-07-06
+
+### Added
+- **Find in the preview**: a search box highlights matches in every mode and jumps between them with Enter / Shift+Enter. In the structured tree it can either filter to matching entries or just highlight them, toggled from the toolbar.
+- **Structured tree view for XML / HTML**: markup is shown as a collapsible element tree, alongside the existing JSON / YAML support.
+- **Close preview and settings windows with Escape.**
+
+### Changed
+- The preview window is reorganised into a mode bar, a context toolbar and a bottom status bar; the encode/decode button sits in the mode bar and the image zoom ratio moved to the status bar.
+- Markdown detection now recognises a document made of multiple list items.
+
+### Fixed
+- Downloading an update through a proxy that requires authentication no longer fails on the redirect to the download CDN.
+
+
 ## 2.0.1.0 - 2026-07-01
 
 ### Added
