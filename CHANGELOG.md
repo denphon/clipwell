@@ -6,6 +6,26 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.1.3 - 2026-08-04
+
+### Added
+- The preview window auto-detects **JWT / JWE tokens** (including a `Bearer <token>` prefix) and decodes them into a collapsible, searchable structured tree, alongside the existing JSON / YAML / XML support.
+- **Copy as JSON** button (`Ctrl+Shift+C`) for the structured tree view; **Expand all** / **Collapse all** are also available as `Ctrl+=` / `Ctrl+-`.
+- **First / Previous / Next / Last** buttons (and `Home` / `PageUp` / `PageDown` / `End` keys) in the preview window step through the currently visible (filtered/searched) list of entries.
+
+### Changed
+- The preview window's top bar no longer shows a redundant "Preview" title (the native window title already shows it); the space now hosts the entry navigation buttons.
+
+## 2.0.1.2 - 2026-07-16
+
+### Changed
+- Links inside rendered rich text / Markdown now open in the default browser instead of navigating within the window.
+- Markdown paragraphs and thematic breaks (`---`) now have vertical spacing in the preview so blocks read as separate sections rather than plain line breaks.
+- The file-type preview keeps icons and paths aligned for both image and non-image files.
+
+### Fixed
+- Prose that merely contains a mid-sentence ": " is no longer misdetected as YAML, so text with Markdown syntax is rendered as Markdown.
+
 ## 2.0.1.1 - 2026-07-06
 
 ### Added
