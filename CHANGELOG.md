@@ -6,6 +6,12 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.1.4 - 2026-10-10
+
+### Fixed
+- Large entries are no longer truncated when copying or pasting as Markdown or HTML, including the default rich-text copy/paste of Markdown. Conversions use the full stored content while list previews remain capped.
+- Structured data and Markdown detection now ignore leading/trailing Unicode whitespace, invisible characters, and control characters, including WebSocket record separators. Markdown rendering uses the same cleanup, without changing the original text or internal characters.
+
 ## 2.0.1.3 - 2026-08-04
 
 ### Added

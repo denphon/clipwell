@@ -6,6 +6,12 @@
 
 > English version: [CHANGELOG.md](CHANGELOG.md)
 
+## 2.0.1.4 - 2026-10-10
+
+### 修复
+- 修复大内容在复制/粘贴为 Markdown 或 HTML 时被截断的问题，同时覆盖 Markdown 的默认富文本复制/粘贴。转换使用完整存储内容，列表预览仍保留长度限制。
+- 结构化内容与 Markdown 检测现在忽略首尾的 Unicode 空白、不可见字符和控制字符，包括 WebSocket 记录分隔符。Markdown 渲染使用相同清理规则，原始文本及内部字符保持不变。
+
 ## 2.0.1.3 - 2026-08-04
 
 ### 新增
