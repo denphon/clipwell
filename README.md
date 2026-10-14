@@ -27,7 +27,7 @@ Requires the **WebView2 Runtime**, which ships with Microsoft Edge on Windows 10
 - **Click an entry to paste** it into the previously active window.
 - **Paste / Copy as Markdown or HTML**: from an entry's right-click menu, convert rich content to Markdown source or a Markdown entry to HTML, and either paste it into the active window or copy it to the clipboard. All conversions use the full stored entry, independent of the history list preview limit, including default Markdown copy/paste.
 - System tray icon with a global hotkey to open the history window (default `Win + V`, customizable).
-- Edge-style dark/light themes, grouping tabs (All / Text / Image / Files / Pinned), search, pin, notes, and save-as-file.
+- Edge-style dark/light themes, grouping tabs (All / Text / Image / Files / Pinned), live search/filtering as you type, pin, notes, and save-as-file.
 - Configurable history size, paste/preview format, auto-save interval, export path, UI language, and theme.
 - Single-instance, Per-Monitor DPI Aware, zero-latency popup.
 - **Portable mode**: place an empty `portable` file next to the exe to store all data under `<exe dir>\data\`.

@@ -6,6 +6,11 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.1.5 - 2026-10-14
+
+### Fixed
+- Restored real-time search and filtering in the history window by preventing repeated initialization from continuously refreshing the list. Typing, changing categories, and new clipboard entries now update the filtered results normally.
+
 ## 2.0.1.4 - 2026-10-10
 
 ### Fixed
