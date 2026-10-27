@@ -6,6 +6,12 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.1.6 - 2026-10-27
+
+### Added
+- A configurable **paste latest entry** global hotkey (default `Win + Shift + V`) pastes the most recent clipboard entry directly into the active application without opening the history list. It supports text, rich text / Markdown, images, and files, uses the full entry and default rich/plain paste format, and is unaffected by search filters or pinned display order.
+- The history and paste-latest hotkeys can be configured independently in Settings, with validation to prevent conflicting combinations.
+
 ## 2.0.1.5 - 2026-10-14
 
 ### Fixed

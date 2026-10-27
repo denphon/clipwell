@@ -25,8 +25,10 @@ Requires the **WebView2 Runtime**, which ships with Microsoft Edge on Windows 10
 - **Robust content detection**: structured data and Markdown ignore leading/trailing Unicode whitespace and invisible/control characters, including WebSocket record separators, while preserving stored content and internal characters.
 - **Encode/Decode tools** in the preview: Base64 / Base64Url / URL / Hex / Quoted-Printable, MD5, SAML, Pretty JSON, UTF16 and FILETIME decode, with one-click copy.
 - **Click an entry to paste** it into the previously active window.
+- **Paste the latest entry** directly into the active application with `Win + Shift + V`, without opening the history list. Supports text, rich text / Markdown, images, and files, uses the full entry and default rich/plain paste format, and ignores search filters and pinned display order.
 - **Paste / Copy as Markdown or HTML**: from an entry's right-click menu, convert rich content to Markdown source or a Markdown entry to HTML, and either paste it into the active window or copy it to the clipboard. All conversions use the full stored entry, independent of the history list preview limit, including default Markdown copy/paste.
 - System tray icon with a global hotkey to open the history window (default `Win + V`, customizable).
+- Independently customizable history and paste-latest hotkeys in Settings, with validation to prevent conflicting combinations.
 - Edge-style dark/light themes, grouping tabs (All / Text / Image / Files / Pinned), live search/filtering as you type, pin, notes, and save-as-file.
 - Configurable history size, paste/preview format, auto-save interval, export path, UI language, and theme.
 - Single-instance, Per-Monitor DPI Aware, zero-latency popup.
