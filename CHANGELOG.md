@@ -6,6 +6,11 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.1.7 - 2026-11-12
+
+### Fixed
+- JSON parsing now ignores literal dots (`.`) at either edge, including dots mixed with whitespace or invisible/control characters. This applies to structured previews of JSON objects/arrays, JSON Lines and WebSocket frames, and the **Pretty JSON** tool. Original clipboard text and dots inside property names, strings, and decimal numbers remain unchanged.
+
 ## 2.0.1.6 - 2026-10-27
 
 ### Added
