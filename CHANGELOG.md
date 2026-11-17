@@ -6,6 +6,15 @@ This changelog is organized by release tag, based on git commit history.
 
 > 中文版：[CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md)
 
+## 2.0.1.8 - 2026-11-17
+
+### Added
+- **Copy individual nodes** in structured previews: hover over any object, array, or leaf node and click Copy. Strings are copied verbatim, objects/arrays as formatted JSON, and numbers/booleans/null as their values. Copying follows the current hide-empty/filter settings without truncating collapsed nodes or shortened strings.
+
+### Fixed
+- Hovering over node-copy buttons no longer changes row heights, shifts subsequent nodes, or introduces horizontal scrolling in narrow windows.
+- Clipboard failures now display a localized error instead of reporting success, with a compatibility fallback when the Clipboard API is unavailable or denied.
+
 ## 2.0.1.7 - 2026-11-12
 
 ### Fixed
